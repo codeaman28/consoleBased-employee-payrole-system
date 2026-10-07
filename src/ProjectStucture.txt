@@ -1,0 +1,39 @@
+EmpTrack/
+│
+├── src/
+│   └── com/
+│       └── emptrack/
+│
+│           ├── app/
+│           │   └── EmployeeManagementApp.java
+│           │
+│           ├── model/
+│           │   ├── Employee.java
+│           │   ├── PermanentEmployee.java
+│           │   ├── ContractEmployee.java
+│           │   ├── Intern.java
+│           │   ├── EmployeeStatus.java
+│           │   └── BenefitEligible.java
+│           │
+│           ├── service/
+│           │   └── EmployeeService.java
+│           │
+│           ├── file/
+│           │   └── EmployeeFileService.java
+│           │
+│           ├── exception/
+│           │   ├── EmployeeAlreadyExistsException.java
+│           │   ├── EmployeeNotFoundException.java
+│           │   ├── InvalidSalaryException.java
+│           │   └── InvalidEmployeeDataException.java
+│           │
+│           └── util/
+│               └── InputValidator.java
+│
+├── data/
+│   └── employees.txt
+│
+├── reports/
+│   └── payroll-report.txt
+│
+└── README.md
